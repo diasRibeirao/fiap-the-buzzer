@@ -1,7 +1,11 @@
 .saldo {
     text-align: center;
     font-weight: 800;
+    padding-top: 80px;
+    height: 100vh;
+    margin: 14px;
+
 }
-h2 {
-    font-size: 3em;
+> h2 {
+    text-align: center;
 }

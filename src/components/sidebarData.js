@@ -5,8 +5,8 @@ import * as IoIcons from 'react-icons/io'
 
 export const SidebarData = [
     {
-        title: "Comprar Créditos",
-        path: "/buyCredits",
+        title: "Consultar Saldo",
+        path: "/consultaSaldo",
         icon: <FaIcons.FaRegCreditCard />,
         cName: "nav-text"
     },
@@ -20,12 +20,6 @@ export const SidebarData = [
         title: "Emergência",
         path: "/emergency",
         icon: <AiIcons.AiFillAlert />,
-        cName: "nav-text"
-    },
-    {
-        title: "Sugestões",
-        path: "/suggestions",
-        icon: <FaIcons.FaRegComments />,
         cName: "nav-text"
     },
     {

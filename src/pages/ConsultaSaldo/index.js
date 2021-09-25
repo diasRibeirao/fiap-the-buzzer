@@ -6,7 +6,7 @@ function ConsultaSaldo() {
 
   return (
     <div className='saldo'>
-      <h1> Consultar Saldo  </h1>
+      <h2>Consultar Saldo </h2>
          <img src={logo} />
          <h3>Vale Transporte</h3>
          <h2>R$ 152,61</h2>
