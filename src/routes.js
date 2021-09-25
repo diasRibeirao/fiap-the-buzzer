@@ -14,9 +14,11 @@ import Compra from "./pages/Compra"
 import Login from "./pages/Login"
 import Cadastro from "./pages/Cadastro"
 import Esqueceu from "./pages/Esqueceu"
-import {signOut} from "../src/global"
-function Router() {
+import {store, useGlobalState} from 'state-pool';
 
+function Router() {
+    const [signOut, setSignOut] = useGlobalState("signOut");
+    
     return (
         
         <BrowserRouter>

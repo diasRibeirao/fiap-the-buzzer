@@ -5,14 +5,20 @@ import { Link } from 'react-router-dom';
 import Button from '@restart/ui/esm/Button';
 import './styles.css';
 import { useHistory } from "react-router-dom"; 
+import {store, useGlobalState} from 'state-pool';
+
+store.setState("signOut", false);
 
 function Login() {
   const history = useHistory();
-  const signOut = true;
-  const handleNavigateToDirect = () => {
+  const [signOut, setSignOut] = useGlobalState("signOut");
+
+  const handleNavigateToDirect = async () => {
+    setSignOut(true)
     console.log(signOut);
     history.push("/direct");
   }
+  
   return (
     <><div className='home'>
       <h1>Login</h1>

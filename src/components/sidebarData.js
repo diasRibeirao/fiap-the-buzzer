@@ -5,12 +5,6 @@ import * as IoIcons from 'react-icons/io'
 
 export const SidebarData = [
     {
-        title: "Home",
-        path: "/",
-        icon: <AiIcons.AiFillHome />,
-        cName: "nav-text"
-    },
-    {
         title: "Comprar Créditos",
         path: "/buyCredits",
         icon: <FaIcons.FaRegCreditCard />,

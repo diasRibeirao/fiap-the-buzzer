@@ -1,8 +1,16 @@
 import { Container, IconSignOut } from "./styles";
 import Navbar from '../../components/NavBar';
-import signOut from '../../global'
-function Header() {
+import {store, useGlobalState} from 'state-pool';
+import { useHistory } from "react-router";
 
+function Header() {
+    const history = useHistory();
+    const [signOut, setSignOut] = useGlobalState("signOut");
+
+    const handleNavigateToLogout = async () => {
+        setSignOut(false)
+        history.push("/");
+      }
 
     return (
         <Container>
@@ -10,7 +18,7 @@ function Header() {
             <div>
                <p>The Buzzer</p>
             </div>
-            <IconSignOut />
+            <IconSignOut onClick={handleNavigateToLogout}/>
         </Container>
     )
 }
