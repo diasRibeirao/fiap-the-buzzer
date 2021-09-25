@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Transports from "./pages/Transports";
 import TransportDetail from "./pages/TransportDetail";
 import Report from "./pages/Report";
-import BilheteUnico from "./pages/BilheteUnico"
+import RateTrip from "./pages/RateTrip"
 import ConsultaSaldo from "./pages/ConsultaSaldo"
 import Compra from "./pages/Compra"
 import Login from "./pages/Login"
@@ -36,6 +36,7 @@ function Router() {
                 <Route path="/login" component={Login} />
                 <Route path="/cadastro" component={Cadastro} /> 
                 <Route path="/esqueceu" component={Esqueceu} />
+                <Route path="/ratetrip" component={RateTrip} />
 
             </Switch>
       </BrowserRouter>
