@@ -11,7 +11,7 @@ function RateTrip() {
   return (
       <>
     <div className='Rate'>
-      <h1>Como foi a sua Viagem?</h1>
+      <h2>Como foi a sua Viagem?</h2>
       <h3>Tempo de viagem</h3>
       <Rating name="size-large" size="large"></Rating>
       <h3> Limpeza do onibus </h3>
