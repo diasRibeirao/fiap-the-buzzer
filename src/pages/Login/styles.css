@@ -1,0 +1,132 @@
+.saldo {
+    text-align: center;
+    font-weight: 800;
+}
+
+.footers{
+    padding-top: 80px;
+    height: 100vh;
+    margin: 14px;
+    text-align: center;
+    
+}
+
+h1 {
+  
+    padding-top: 40px;
+width: 238px;
+height: 72px;
+left: 61px;
+top: 14px;
+text-align: center;
+
+font-family: Hind Vadodara;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+img {
+    /* bus 1 */
+
+width: 238px;
+height: 237px;
+left: 61px;
+top: 142px;
+
+border-radius: 7px;
+
+
+
+}
+
+.btnLogin {
+
+position: absolute;
+text-align:center;
+width: 296px;
+height: 48px;
+left: 50%;
+margin-left: -148px;
+top: 680px;
+
+/* image 1 */
+
+
+
+background: url(facebook.png);
+
+}
+
+
+.btnCadastrar {
+
+position: absolute;
+text-align:center;
+
+width: 296px;
+height: 48px;
+left: 50%;
+margin-left: -148px;
+top: 550px;
+
+background: #5C4B4B;
+border-radius: 8px;
+}
+
+.buttons{
+    text-align:center;
+}
+
+.textemail{
+
+    position: absolute;
+    left: 0%;
+    right: 84.33%;
+    top: 47.62%;
+    bottom: -47.62%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+
+.btnLoginRealizar {
+
+
+        position: absolute;
+        text-align:center;
+        width: 296px;
+        height: 48px;
+        left: 50%;
+        margin-left: -148px;
+        top: 780px;
+        
+        
+        background: rgba(217, 60, 60, 0.81);
+        border-radius: 8px;
+        
+    
+    }
+    
+    form{    
+        padding: 10px;
+        margin: 2px;
+    }
+
+    div{        
+        padding: 10px;
+        margin: 2px;
+    }
