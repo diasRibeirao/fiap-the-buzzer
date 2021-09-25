@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 
 function RateTrip() {
   const history = useHistory();
-  const handleNavigateToMeioTransportes = () => history.push("/");
+  const handleNavigateToMeioTransportes = () => history.push("/direct");
   return (
       <>
     <div className='Rate'>

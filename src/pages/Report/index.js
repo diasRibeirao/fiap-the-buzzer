@@ -12,7 +12,7 @@ import { useHistory } from "react-router-dom";
 
 function Report() {
   const history = useHistory();
-  const handleNavigateToMeioTransportes = () => history.push("/");
+  const handleNavigateToMeioTransportes = () => history.push("/direct");
   const Input = styled('input')({
     display: 'none',
   });
